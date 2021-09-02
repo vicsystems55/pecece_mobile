@@ -13,7 +13,7 @@ class _RegisterState extends State<Register> {
      
       body: new Center(
         child: new Text(
-          "Succeeded!",
+          "Register!",
           style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
         ),
       ),
