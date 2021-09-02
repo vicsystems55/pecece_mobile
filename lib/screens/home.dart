@@ -6,14 +6,18 @@ import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:pecece/screens/login.dart';
 import 'package:pecece/screens/register.dart';
 
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
+
   PersistentTabController _controller =
       PersistentTabController(initialIndex: 0);
+
+
 
   @override
   Widget build(BuildContext context) {
